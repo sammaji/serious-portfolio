@@ -1,5 +1,5 @@
 <script>
-    import FOOTER_DATA from "../src/data/footer.data";
+    import FOOTER_DATA from "../data/footer.data";
 </script>
 
 <footer class="mt-48 py-24 bg-orange-200 flex flex-wrap justify-evenly">

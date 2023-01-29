@@ -3,7 +3,7 @@
   import Project from '../../components/Project.svelte';
   import ProjectItem from '../../components/ProjectItem.svelte';
   import Footer from '../../components/Footer.svelte';
-  import { MY_TECH_STACK } from '../data/project.data';
+  import { MY_TECH_STACK } from '../../data/project.data';
   import TechStack from '../../components/TechStack.svelte';
 </script>
 
@@ -27,9 +27,3 @@
   <Project />
   <Footer />
 </div>
-
-<style lang="postcss">
-  :global(html) {
-    /* background-color: theme(bg.slate.400); */
-  }
-</style>

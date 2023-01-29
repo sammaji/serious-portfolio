@@ -1,6 +1,6 @@
 <script>
   import '../src/app.css';
-  import {PROJECTS_DATA} from '../src/data/project.data';
+  import {PROJECTS_DATA} from '../data/project.data';
   import ProjectItem from './ProjectItem.svelte';
 </script>
 
