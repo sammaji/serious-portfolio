@@ -1,22 +1,35 @@
 <script>
-	import Project from '../../components/Project.svelte';
-	import ProjectItem from '../../components/ProjectItem.svelte';
-	import PROJECTS_DATA from '../data/project.data';
+  import '../app.css';
+  import Project from '../../components/Project.svelte';
+  import ProjectItem from '../../components/ProjectItem.svelte';
+  import Footer from '../../components/Footer.svelte';
+  import { MY_TECH_STACK } from '../data/project.data';
+  import TechStack from '../../components/TechStack.svelte';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 <div>
-	<Project>
-		{#each PROJECTS_DATA as project_item}
-			<ProjectItem
-				project_title={project_item.title}
-				project_description={project_item.description}
-                project_source = {project_item.source}
-                project_demo = {project_item.demo}
-				project_preview_low = {project_item.preview_low}
-				project_preview_high = {project_item.preview_high}
-			/>
-		{/each}
-	</Project>
+  <div class="mx-24 my-32 grid grid-rows-1 grid-cols-2 gap-8">
+    <div>
+      <h2 class="text-3xl font-bold pb-2">Too less or Too more?</h2>
+      <p>
+        Here's a list of my tech stack. These are technologies that I've worked with and have build
+        some projects with. There are few more that I've tried but never built anything with. Those
+        are not included. See my Github for my complete Tech Stack.
+      </p>
+    </div>
+    <div class="flex flex-wrap justify-start h-fit">
+      {#each MY_TECH_STACK as tech_stack}
+        <TechStack icon={tech_stack.icon} title={tech_stack.title} img_to_right={false} />
+      {/each}
+    </div>
+  </div>
+
+  <Project />
+  <Footer />
 </div>
+
+<style lang="postcss">
+  :global(html) {
+    /* background-color: theme(bg.slate.400); */
+  }
+</style>
