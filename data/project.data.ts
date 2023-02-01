@@ -25,7 +25,7 @@ interface ProjectData {
 const TECH_STACK = {
   figma: {
     title: 'Figma',
-    icon: 'figma-plain-colored'
+    icon: 'figma-plain'
   },
    firebase: {
     title: 'Firebase',
@@ -53,7 +53,7 @@ const TECH_STACK = {
   },
   tailwind: {
     title: 'Tailwind',
-    icon: 'tailwindcss-original-wordmark colored'
+    icon: 'tailwindcss-original'
   },
   threejs: {
     title: 'ThreeJS',
