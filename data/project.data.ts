@@ -23,13 +23,21 @@ interface ProjectData {
 
 /* A full list of technologies I have worked with, in alphabetical order */
 const TECH_STACK = {
-  firebase: {
+  figma: {
+    title: 'Figma',
+    icon: 'figma-plain'
+  },
+   firebase: {
     title: 'Firebase',
     icon: 'firebase-plain'
   },
   javascript: {
     title: 'JavaScript',
     icon: 'javascript-plain'
+  },
+  next: {
+    title: 'Next',
+    icon: 'nextjs-original'
   },
   node: {
     title: 'Node',
@@ -39,18 +47,29 @@ const TECH_STACK = {
     title: 'React',
     icon: 'react-original'
   },
+  svelte: {
+    title: 'Svelete',
+    icon: 'svelte-plain'
+  },
+  tailwind: {
+    title: 'Tailwind',
+    icon: 'tailwindcss-original'
+  },
   threejs: {
-    title: 'ThreeJs',
+    title: 'ThreeJS',
     icon: 'threejs-original'
   }
 };
 
 const MY_TECH_STACK: TechStack[] = [
-  TECH_STACK.react,
-  TECH_STACK.threejs,
+  TECH_STACK.figma, 
   TECH_STACK.firebase,
+  TECH_STACK.javascript,
+  TECH_STACK.next,
   TECH_STACK.node,
-  TECH_STACK.javascript
+  TECH_STACK.react,
+  TECH_STACK.tailwind,
+  TECH_STACK.threejs,
 ];
 
 const PROJECTS_DATA: ProjectData[] = [
@@ -65,11 +84,15 @@ const PROJECTS_DATA: ProjectData[] = [
     source: 'https://github.com/samyabrata-maji/labforall',
     demo: 'https://lab4all.vercel.app',
     tech_stack: [
-      TECH_STACK.react,
-      TECH_STACK.threejs,
+      TECH_STACK.figma, 
       TECH_STACK.firebase,
+      TECH_STACK.javascript,
+      TECH_STACK.next,
       TECH_STACK.node,
-      TECH_STACK.javascript
+      TECH_STACK.react,
+      TECH_STACK.svelte,
+      TECH_STACK.tailwind,
+      TECH_STACK.threejs,
     ]
   },
   {
@@ -83,11 +106,15 @@ const PROJECTS_DATA: ProjectData[] = [
     source: 'https://github.com/samyabrata-maji/labforall',
     demo: 'https://lab4all.vercel.app',
     tech_stack: [
-      TECH_STACK.react,
-      TECH_STACK.threejs,
+      TECH_STACK.figma, 
       TECH_STACK.firebase,
+      TECH_STACK.javascript,
+      TECH_STACK.next,
       TECH_STACK.node,
-      TECH_STACK.javascript
+      TECH_STACK.react,
+      TECH_STACK.svelte,
+      TECH_STACK.tailwind,
+      TECH_STACK.threejs,
     ]
   },
   {
@@ -101,11 +128,15 @@ const PROJECTS_DATA: ProjectData[] = [
     source: 'https://github.com/samyabrata-maji/labforall',
     demo: 'https://lab4all.vercel.app',
     tech_stack: [
-      TECH_STACK.react,
-      TECH_STACK.threejs,
+      TECH_STACK.figma, 
       TECH_STACK.firebase,
+      TECH_STACK.javascript,
+      TECH_STACK.next,
       TECH_STACK.node,
-      TECH_STACK.javascript
+      TECH_STACK.react,
+      TECH_STACK.svelte,
+      TECH_STACK.tailwind,
+      TECH_STACK.threejs,
     ]
   }
 ];
