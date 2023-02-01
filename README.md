@@ -1,7 +1,28 @@
-# Serious Portfolio
+# Serious Portfolio 
 
-## installation
-1. Make sure you have node installed
-2. install yarn (`npm install -g yarn`)
-3. install packages (`yarn install`)
-4. run website (`yarn dev`)
+Portfolio for 2023
+
+## Getting Started
+
+To setup this project on your system, you need
+
+* **Git**
+* **Nodejs**
+* **Npm / Yarn** (Package manager)
+
+### installation
+
+Then run these following commands on your Terminal or Command prompt
+### Run
+``` bash
+
+$ git clone https://github.com/samyabrata-maji/serious-portfolio.git
+
+$ cd serious-portfolio
+
+$ npm install -g yarn
+
+$ yarn install
+
+$ yarn dev
+```
