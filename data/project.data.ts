@@ -24,7 +24,7 @@ interface ProjectData {
 /* A full list of technologies I have worked with, in alphabetical order */
 const TECH_STACK = {
   figma: {
-    title: 'figma',
+    title: 'Figma',
     icon: 'figma-plain-colored'
   },
    firebase: {
@@ -36,7 +36,7 @@ const TECH_STACK = {
     icon: 'javascript-plain'
   },
   next: {
-    title: 'next',
+    title: 'Next',
     icon: 'nextjs-original'
   },
   node: {
@@ -48,15 +48,15 @@ const TECH_STACK = {
     icon: 'react-original'
   },
   svelte: {
-    title: 'svelete',
+    title: 'Svelete',
     icon: 'svelte-plain'
   },
   tailwind: {
-    title: 'tailwind',
+    title: 'Tailwind',
     icon: 'tailwindcss-original-wordmark colored'
   },
   threejs: {
-    title: 'threeJs',
+    title: 'ThreeJS',
     icon: 'threejs-original'
   }
 };
