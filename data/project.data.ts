@@ -31,6 +31,10 @@ const TECH_STACK = {
     title: 'JavaScript',
     icon: 'javascript-plain'
   },
+  kotlin: {
+    title: 'Kotlin',
+    icon: 'kotlin-plain'
+  },
   node: {
     title: 'Node',
     icon: 'nodejs-plain'
@@ -39,9 +43,29 @@ const TECH_STACK = {
     title: 'React',
     icon: 'react-original'
   },
+  tailwind: {
+    title: 'Tailwind',
+    icon: 'tailwindcss-plain'
+  },
   threejs: {
     title: 'ThreeJs',
     icon: 'threejs-original'
+  },
+  typescript: {
+    title: 'TypeScript',
+    icon: 'typescript-plain'
+  },
+  opencv: {
+    title: 'OpenCV',
+    icon: 'opencv-plain'
+  },
+  python: {
+    title: 'Python',
+    icon: 'python-plain'
+  },
+  unreal5: {
+    title: 'Unreal Engine 5',
+    icon: 'unrealengine-original'
   }
 };
 
@@ -50,7 +74,12 @@ const MY_TECH_STACK: TechStack[] = [
   TECH_STACK.threejs,
   TECH_STACK.firebase,
   TECH_STACK.node,
-  TECH_STACK.javascript
+  TECH_STACK.javascript,
+  TECH_STACK.typescript,
+  TECH_STACK.tailwind,
+  TECH_STACK.kotlin,
+  TECH_STACK.python,
+  TECH_STACK.unreal5
 ];
 
 const PROJECTS_DATA: ProjectData[] = [
