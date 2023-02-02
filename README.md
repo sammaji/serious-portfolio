@@ -10,7 +10,7 @@ To setup this project on your system, you need
 * **Nodejs**
 * **Npm / Yarn** (Package manager)
 
-### installation
+### Installation
 
 Then run these following commands on your Terminal or Command prompt
 ### Run
