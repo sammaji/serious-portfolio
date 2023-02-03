@@ -16,10 +16,15 @@ First clone this repo
 git clone https://github.com/samyabrata-maji/serious-portfolio.git
 ```
 
-Install all dependencies needed to run the app
+Install yarn
 
 ```
 npm install -g yarn
+```
+Next install related packages 
+
+```
+yarn install 
 ```
 
 To start the application in **development mode**, run:
