@@ -1,10 +1,9 @@
 <script>
-  import '../app.css';
-  import Project from '../../components/Project.svelte';
-  import ProjectItem from '../../components/ProjectItem.svelte';
-  import Footer from '../../components/Footer.svelte';
-  import { MY_TECH_STACK } from '../../data/project.data';
-  import TechStack from '../../components/TechStack.svelte';
+  import '@src/app.css';
+  import { MY_TECH_STACK } from '@data/project.data';
+  import Project from '@components/project_section/Project.svelte';
+  import TechStack from '@components/project_section/TechStack.svelte';
+  import Footer from '@components/Footer.svelte';
 </script>
 
 <div>

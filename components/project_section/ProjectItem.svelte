@@ -26,28 +26,20 @@
   const flex_padding = img_to_right ? 'pl-4' : 'pr-4';
 
   const displayHighResImage = (project_id: number): void => {
-    console.log('loading...'+project_id);
-
     const img_low: HTMLElement | null = document.getElementById(`img-low-${project_id}`);
     const img_high: HTMLElement | null = document.getElementById(`img-high-${project_id}`);
     if (img_low) img_low.style.display = 'none';
     if (img_high) img_high.style.display = 'block';
-
-    console.log('loaded'+project_id);
   };
 </script>
 
 <div class="grid grid-rows-1 grid-cols-2 px-20 gap-10">
   {#if !img_to_right}
-    <img src={project_preview_low} alt="not available" id={`img-low-${project_id}`} class="w-full h-full" />
     <img
       src={project_preview_high}
-      alt="not available"
-      id={`img-high-${project_id}`}
+      alt={project_title}
       class="w-full h-full"
       loading="lazy"
-      on:load={() => displayHighResImage(project_id)}
-      style="display: none;"
     />
   {/if}
 
@@ -83,15 +75,11 @@
   </div>
 
   {#if img_to_right}
-    <img src={project_preview_low} alt="not available" id={`img-low-${project_id}`} class="w-full h-full" />
     <img
       src={project_preview_high}
       alt="not available"
-      id={`img-high-${project_id}`}
       class="w-full h-full"
       loading="lazy"
-      on:load={() => displayHighResImage(project_id)}
-      style="display: none;"
     />
   {/if}
 </div>

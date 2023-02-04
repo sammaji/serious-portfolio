@@ -1,11 +1,11 @@
 <script>
-  import '../src/app.css';
-  import {PROJECTS_DATA} from '../data/project.data';
+  import '../../src/app.css';
+  import {PROJECTS_DATA} from '../../data/project.data';
   import ProjectItem from './ProjectItem.svelte';
 </script>
 
 <article class="w-full grid gap-24">
-  <h2 class="m-auto text-5xl font-bold">Have a Look</h2>
+  <h2 class="m-auto text-5xl font-bold">Major Projects</h2>
 
   <!-- contains the list of projects -->
   {#each PROJECTS_DATA as project_item}
